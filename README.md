@@ -64,15 +64,17 @@ Proyek ini dibagi menjadi dua notebook utama yang mencerminkan dua fase analisis
 
 ## 📁 Deskripsi Berkas dalam Repositori
 
-├───[Clustering]\_Submission_Akhir_BMLP_Muhammad_Husain_Fadhlillah_MC006D5Y2343.ipynb
-├───[Klasifikasi]\_Submission_Akhir_BMLP_Muhammad_Husain_Fadhlillah_MC006D5Y2343.ipynb
-├───data_clustering.csv
-├───data_clustering_inverse.csv
-├───model_clustering.h5
-├───PCA_model_clustering.h5
-├───decision_tree_model.h5
-├───explore_XGBoost_classification.h5
+```
+├───d[Clustering]\_Submission_Akhir_BMLP_Muhammad_Husain_Fadhlillah_MC006D5Y2343.ipynb
+├───d[Klasifikasi]\_Submission_Akhir_BMLP_Muhammad_Husain_Fadhlillah_MC006D5Y2343.ipynb
+├───ddata_clustering.csv
+├───ddata_clustering_inverse.csv
+├───dmodel_clustering.h5
+├───dPCA_model_clustering.h5
+├───ddecision_tree_model.h5
+├───dexplore_XGBoost_classification.h5
 └───tuning_classification.h5
+```
 
 ## ✨ Ringkasan Hasil Utama
 
