@@ -1,6 +1,6 @@
 # Proyek Machine Learning: Segmentasi Pelanggan dan Klasifikasi
 
-![Machine Learning Banner](https://img.freepik.com/free-vector/machine-learning-concept-illustration_114360-13066.jpg?w=996&t=st=1717545000~exp=1717545600~hmac=76919a8b16948982866c3865370cd58131f9e0d2f43a84fca725a031811b08e0) ## 👤 Informasi Pengembang
+## 👤 Informasi Pengembang
 
 - **Nama:** Muhammad Husain Fadhlillah
 - **ID Dicoding:** MC006D5Y2343
@@ -72,8 +72,7 @@ Proyek ini dibagi menjadi dua notebook utama yang mencerminkan dua fase analisis
 ├── PCA_model_clustering.h5
 ├── decision_tree_model.h5
 ├── explore_XGBoost_classification.h5
-├── tuning_classification.h5
-└── README.md
+└── tuning_classification.h5
 
 ## ✨ Ringkasan Hasil Utama
 
