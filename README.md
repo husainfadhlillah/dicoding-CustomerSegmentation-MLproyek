@@ -18,7 +18,6 @@ Tujuan utama proyek ini adalah untuk:
 ## 📊 Dataset
 
 - **Nama Dataset:** Dataset Perilaku Pelanggan (Customer Behavior Dataset)
-  - Dataset yang digunakan dalam proyek ini adalah `Dataset Session 7 - 준비된.xlsx`.
 - **Deskripsi:** Dataset ini berisi berbagai atribut pelanggan seperti demografi (`Age`, `Gender`, `MaritalStatus`), finansial (`Income`, `Balance`), riwayat transaksi (`TransactionAmount`, `TransactionFrequency`, `PurchaseCategory`), metode pembayaran (`PaymentMethod`), lokasi (`Location`), dan interaksi dengan layanan (`CustomerSupportInteractions`, `SatisfactionScore`).
 - **Sumber:** Disediakan untuk Proyek Akhir kelas "Belajar Machine Learning untuk Pemula" oleh Dicoding.
 
@@ -42,14 +41,14 @@ Proyek ini dibagi menjadi dua notebook utama yang mencerminkan dua fase analisis
     - **Pembagian Dataset:** Membagi data menjadi set pelatihan dan pengujian.
     - **Pembangunan Model Klasifikasi:**
       - Model dasar: Decision Tree.
-      - Eksplorasi model lain: K-Nearest Neighbors (KNN), Random Forest, dan XGBoost.
+      - Eksplorasi model lain: K-Nearest Neighbors (KNN), Random Forest, dan Logistic Regression.
     - **Evaluasi Model:** Mengevaluasi performa model menggunakan metrik seperti Akurasi, Presisi, Recall, dan F1-Score.
-    - **Hyperparameter Tuning:** Mengoptimalkan parameter pada model Decision Tree menggunakan GridSearchCV.
+    - **Hyperparameter Tuning:** Mengoptimalkan parameter pada model menggunakan GridSearchCV.
     - **Ekspor Model:** Menyimpan model-model yang telah dilatih.
 
 ## 🛠️ Teknologi dan Pustaka yang Digunakan
 
-- **Python 3.x**
+- **Python**
 - **Jupyter Notebook**
 - **Core Libraries:**
   - `Pandas`: Untuk manipulasi dan analisis data.
@@ -62,7 +61,7 @@ Proyek ini dibagi menjadi dua notebook utama yang mencerminkan dua fase analisis
 - **Model Persistence:**
   - `Joblib`: Untuk menyimpan dan memuat model terlatih.
 
-## 📁 Deskripsi Berkas dalam Repositori
+## 📁 Berkas dalam Repositori
 
 ```
 ├───[Clustering]_Submission_Akhir_BMLP_Muhammad_Husain_Fadhlillah_MC006D5Y2343.ipynb
@@ -72,7 +71,7 @@ Proyek ini dibagi menjadi dua notebook utama yang mencerminkan dua fase analisis
 ├───model_clustering.h5
 ├───PCA_model_clustering.h5
 ├───decision_tree_model.h5
-├───explore_XGBoost_classification.h5
+├───explore_Logistic Regression_classification.h5
 └───tuning_classification.h5
 ```
 
@@ -88,10 +87,10 @@ Proyek ini dibagi menjadi dua notebook utama yang mencerminkan dua fase analisis
 ### Tahap Klasifikasi
 
 - Dataset hasil clustering (`data_clustering_inverse.csv`) digunakan sebagai input untuk model klasifikasi.
-- Beberapa algoritma klasifikasi dieksplorasi: Decision Tree, KNN, Random Forest, dan XGBoost.
-- **Model XGBoost menunjukkan performa terbaik** pada data uji di antara model yang dieksplorasi, dengan metrik sebagai berikut:
+- Beberapa algoritma klasifikasi dieksplorasi: Decision Tree, KNN, Random Forest, dan Logistic Regression.
+- **Model Random Forest menunjukkan performa terbaik** pada data uji di antara model yang dieksplorasi, dengan metrik sebagai berikut:
   - Akurasi: ~0.993
   - Presisi: ~0.993
   - Recall: ~0.993
   - F1-Score: ~0.993
-- Hyperparameter tuning dilakukan pada model Decision Tree, yang menghasilkan peningkatan performa dibandingkan model Decision Tree dasar.
+- Hyperparameter tuning dilakukan pada model KNN karena model tersebut terendah daripada model yang lain, namun setelah dituning tetap menghasilkan performa yang rendah dibandingkan model yang lain.
