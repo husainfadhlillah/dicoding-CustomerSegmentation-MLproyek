@@ -71,7 +71,7 @@ Proyek ini dibagi menjadi dua notebook utama yang mencerminkan dua fase analisis
 ├───model_clustering.h5
 ├───PCA_model_clustering.h5
 ├───decision_tree_model.h5
-├───explore_Logistic Regression_classification.h5
+├───explore_Random Forest_classification.h5
 └───tuning_classification.h5
 ```
 
